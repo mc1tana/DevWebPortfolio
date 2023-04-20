@@ -505,6 +505,10 @@ footer p{
         padding: 40px 0;
         height: max-content;
     }
+    .technoUsed{
+        display: inline-block;
+        margin-right: 10px;
+    }
     .phone img{
         width: 90% !important;
     }

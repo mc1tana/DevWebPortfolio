@@ -67,7 +67,7 @@ function clickProject(e){
                                                                         </section>
                                                                     </div>`
         elt.techno.forEach((tech)=>{
-            document.querySelector('.techno').innerHTML+=`<span class="technoUse">${tech}</span>`
+            document.querySelector('.techno').innerHTML+=`<span class="technoUsed">${tech}</span>`
         })
         }
     })
