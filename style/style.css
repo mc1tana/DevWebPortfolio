@@ -44,8 +44,18 @@ section h2{
 }
 /* #### header #### */
 header .containHead{
+    margin: 0 auto;
     position: relative;
     width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size:100% 100% ;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-image: url("../assets/images/PresentationImageStyleAnimated.jpg");
+}
+.headimg{
+    /* object-fit: fill;    */
 }
 .writingTallerSrceen{
     position: absolute;
@@ -131,10 +141,7 @@ nav{
     top: 0;
 }
 
-header div .headimg{
-    width: 100%;
-    height: 700px;
-}
+
 
 /* ##### about ##### */
 #about{
@@ -428,13 +435,13 @@ footer p{
     margin-right: 10px;
 }
 .phone img:not(.sophie-display){
-    height: 70%;
-    width: 50%;
+    height: 365px;
+    width: 200px;
     margin: 0 auto;
 }
 .sophie-display{
-    height: 50%;
-    width: 79%;
+    height: 200px;
+    width: 249px;
     margin: 0 auto;
 }
 /* #### aparition #### */
@@ -511,10 +518,6 @@ footer p{
         padding: 40px 0;
         height: max-content;
     }
-    
-    .phone img{
-        width: 90% !important;
-    }
     nav ul{
         flex-wrap: wrap;
     }
@@ -538,6 +541,12 @@ footer p{
    
    }
    @media screen and (max-width: 550px) {
+    .modalProject .phone{
+        display: none
+    }
+    .modal{
+        margin-top: 50px;
+    }
     nav ul{
         width : 300px;
         flex-wrap: wrap;
