@@ -44,7 +44,6 @@ section h2{
 }
 /* #### header #### */
 header .containHead{
-    margin: 0 auto;
     position: relative;
     width: 100%;
     height: 700px;
@@ -57,11 +56,12 @@ header .containHead{
 .headimg{
     width: 100%;
     height: 700px;
+    /* margin: 0 auto; */
 }
 .writingTallerSrceen{
     position: absolute;
-    bottom: 30%;
-    right:62%;
+    bottom: 209px;
+    left: 227px;
     z-index: 1;
     width: 369px;
     height: 200px;
@@ -510,11 +510,30 @@ footer p{
    }
   }   
   @media screen and (max-width: 750px) {
+    .headimg{
+        width: 100%;
+        height: 400px;
+        /* margin: 0 auto; */
+    }
+    header .containHead{
+        position: relative;
+        width: 100%;
+       height: 400px;
+    }
     .writing p{
         font-size: 10px;
         transform: translateY(10px);
     }
-    .writing{right: 10%;}
+    .writingTallerSrceen {
+        top: 155px;
+        height: 100px;
+    }
+    .writingTallerSrceen p{
+        font-size: medium;
+    }
+    .writing{
+        top: 253px;
+        right: 10%;}
     .modal article{
         justify-content: none;
         padding: 40px 0;
