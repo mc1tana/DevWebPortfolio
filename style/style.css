@@ -620,7 +620,7 @@ footer p{
         width: 100%;
         overflow: hidden;
     }
-    .writing{right: 0;}
+    .writing{display: none;}
     .writingTallerSrceen {
        left: 14%;
     }
@@ -632,9 +632,9 @@ footer p{
     }
    }
    @media screen and (max-width: 320px){
-    .writing{
+    /* .writing{
         display: none;
-    }
+    } */
     .writingTallerSrceen {
         width: 200px;
      }
