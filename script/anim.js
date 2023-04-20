@@ -78,8 +78,8 @@ function clickProject(e){
 function modalLeave(e){
    if(e.target.classList.contains('modal')){
         e.target.parentNode.removeChild(document.querySelector(".modal"))
-   }else if(e.target.classList.contains('fa-xmark') /* && console.log(document.querySelector(".modal"))*/ ){
-    document.getElementById("project").removeChild(document.querySelector(".modal"))
+   }else if(e.target.classList.contains('fa-xmark')  && document.querySelector(".modal")){
+    document.querySelector("#project").removeChild(document.querySelector(".modal"))
    }
 }
 
