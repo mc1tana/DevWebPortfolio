@@ -612,3 +612,33 @@ footer p{
     }
     .writing{right: 4%;}
    }
+   @media screen and (max-width: 390px) {
+    #about{
+        height:830px
+    }
+    main{
+        width: 100%;
+        overflow: hidden;
+    }
+    .writing{right: 0;}
+    .writingTallerSrceen {
+       left: 14%;
+    }
+    nav img{
+        margin-left: 7px;
+    }
+    nav ul{
+        padding: 0;
+    }
+   }
+   @media screen and (max-width: 320px){
+    .writing{
+        display: none;
+    }
+    .writingTallerSrceen {
+        width: 200px;
+     }
+     .writingTallerSrceen p{
+        font-size: small;
+     }
+   }
