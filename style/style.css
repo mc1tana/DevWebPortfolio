@@ -475,6 +475,10 @@ footer p{
         bottom: 30%;
         left:20%;
     }
+    .headimg{
+        width: 1500px;
+        margin:0 auto;
+    }
 
    }
    @media screen and (max-width: 1200px) {
