@@ -530,6 +530,9 @@ footer p{
    }
   }   
   @media screen and (max-width: 750px) {
+    .phonesophie{
+        display: none;
+    }
     .headimg{
         width: 100%;
         height: 400px;

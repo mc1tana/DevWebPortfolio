@@ -50,7 +50,7 @@ function clickProject(e){
         if(elt.name==e.target.dataset.nameProject){
             e.target.parentNode.parentNode.parentNode.innerHTML+= `<div class="modal" onclick='modalLeave(event)'>
                                                                         <section class="modalProject"> 
-                                                                                    <div class="phone">
+                                                                                    <div class="phone phone${elt.name}">
                                                                                         <img class="${elt.name}-display" src=${elt.image}>                                                          
                                                                                     </div>
                                                                                     <article>
