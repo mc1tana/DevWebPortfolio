@@ -470,15 +470,26 @@ footer p{
 
     }
 }
+@media screen and (min-width: 1600px){
+    .writing{
+        right: 35%;
+    }
+}
+@media screen and (min-width: 1500px) {.headimg{
+    width: 1500px;
+    margin:0 auto;
+}
+.writing{
+
+    right: 30%;
+}
+}
 @media screen and (max-width: 1500px) {
     .writingTallerSrceen{
         bottom: 30%;
         left:20%;
     }
-    .headimg{
-        width: 1500px;
-        margin:0 auto;
-    }
+  
 
    }
    @media screen and (max-width: 1200px) {
