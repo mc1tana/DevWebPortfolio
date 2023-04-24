@@ -21,7 +21,6 @@ const describeProject=[
 function simuleClick(e){
     e.preventDefault()
     if(e.target.classList.contains('fa-arrow-right')){
-        console.log(e.target.parentNode.parentNode)
         e.target.parentNode.parentNode.click()
     }else
     {e.target.parentNode.click()}

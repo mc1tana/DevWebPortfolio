@@ -36,13 +36,13 @@ let title = document.querySelector(".writing");
 			typeWriter(currentText ,line, j, tt, nb, i)
 		}
 		else if(i < dataText.length){
-		let line = document.createElement("p");
-		line.classList.add(`h${nb}-content`);
-		tt.appendChild(line);
-		// line.style.transform="translateY(-10px)"
-		let currentText = dataText[i];
-		j = 0;
-		typeWriter(currentText ,line, j, tt, nb, i)
+			let line = document.createElement("p");
+			line.classList.add(`h${nb}-content`);
+			tt.appendChild(line);
+			// line.style.transform="translateY(-10px)"
+			let currentText = dataText[i];
+			j = 0;
+			typeWriter(currentText ,line, j, tt, nb, i)
         }
 	}	
  
