@@ -472,17 +472,21 @@ footer p{
 }
 
 @media screen and (min-width: 1600px){
-    .writing{
-        right: 35% !important;
+    
+    .headimg{
+        width: 1500px;
     }
 }
-@media screen and (min-width: 1500px) {.headimg{
+@media screen and (min-width: 1500px) {
+    .headimg{
     width: 1500px;
-    margin:0 auto;
 }
 .writing{
-
     right: 30% ;
+}
+.containHead{
+    width: 1500px !important;
+    margin : 0 auto
 }
 }
 @media screen and (max-width: 1500px) {
